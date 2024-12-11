@@ -55,4 +55,4 @@ jobs:
         tags: ${{secrets.DOCKER_USERNAME}}/flasktest-app:latest
 
     - name: Imaga digest
-    - run: echo ${{steps.build-and-publish.outputs.digest}}
+    - run: echo ${{steps.build-and-publish.outputs.digest}} 
